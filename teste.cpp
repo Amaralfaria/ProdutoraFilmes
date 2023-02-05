@@ -2,8 +2,11 @@
 using namespace std;
 
 int main(){
-
-    cout << "holly molly";
+    int soma = 0;
+    for(int i = 0;i<10;i++){
+        soma += i;
+    }
+    cout << soma;
 
     return 0;
 }
